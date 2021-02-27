@@ -1,0 +1,40 @@
+<!-- This html doc contains an example illustrating the usage and basic structure of the forms in html-->
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <link rel="stylesheet" href="styling.css">
+      <title>FORMS</title>
+    </head>
+    <body>
+      <h1>Contact Form </h1>
+      <p>Please provide your details in the below form and reason for contact or query</p>
+
+      <form class="" action="index.html" method="post">
+        <p><b>First Name</b></p>
+        <input type="text" placeholder="E.g. Saidev">
+
+        <p><b>Last Name</b></p>
+        <input type="text" placeholder="E.g. Lakkakula">
+
+        <p><b>Reason for query</b></p>
+        <input type="radio" checked> Bills <br>
+        <input type="radio"> Product queries<br>
+        <input type="radio"> Other <br>
+        <br>
+
+        <p><b>Else please select the reason for contact</b></p>
+        <select class="" name="">
+        <option value="">Bills</option>
+        <option value="">Product queries</option>
+        <option value="">Other</option>
+        </select>
+        <br>
+        <br>
+        <textarea name="" rows="8" cols="80" placeholder="Please write your message here..."></textarea>
+        <br>
+        <input type="submit" value="Click me">
+
+      </form>
+
+    </body>
+  </html>

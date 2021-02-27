@@ -1,0 +1,17 @@
+function heading(){
+
+document.getElementById("changeOne").innerHTML="How are you doing!";
+document.getElementById("changeOne").style.color="orange";
+}
+
+function blueback(){
+
+document.body.style.backgroundColor="blue";
+
+}
+
+function redback(){
+
+document.body.style.backgroundColor="red";
+
+}

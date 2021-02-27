@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    {%load static %}
+    <link rel="stylesheet" href="{% static 'portfoliostyling.css' %}">
+    <title>contact form</title>
+  </head>
+  <body>
+
+    <div class="spacing">
+    <div class="jumbotron">
+      <h1 class="display-4"><b>Portfolio Website</b></h1>
+      <hr class="my-4">
+    </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="{% url 'home' %}" class="navbar-brand"><span class="navbarfont">Home </span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><span class="navbarfont">My Study </span></a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="navbarfont">Skills & Tools</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Programming</a></li>
+                  <li><a class="dropdown-item" href="#">Design and Simulaitons</a></li>
+              <!--    <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>-->
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <span class="navbarfont">Projects</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Wind turbines</a></li>
+                  <li><a class="dropdown-item" href="#">CFD projects</a></li>
+                </ul>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </div>
+        </nav>
+
+
+        <div class="spacing">
+
+          <div class="bodyText">
+
+            <p class="lead"><span id="welcome"><b>Get in touch</b></span> <br> <br><span id="para1">In case of doubts and queries about my portfolio, making of the website, please use the form below to reach me. Any suggestions to improve the quality of this website are welcome as well.</span></p>
+
+          </div>
+        </div>
+
+
+        <br>
+        <div class="card">
+
+          <form action="{% url 'submission' %}" class="contactform"  >
+
+            {% csrf_token %}
+            <div class="formboxes">
+
+            <input type="text" placeholder="First Name" name="First Name">
+            <br>
+            <br>
+            <input type="text" placeholder="Email" name="Email_Id">
+            <br>
+            <br>
+            <input type="text" placeholder="Subject" name="Subject">
+            <br>
+            <br>
+            <textarea type="text" rows="7" cols="50" name="Message" placeholder="Write your message here..."></textarea>
+            <br>
+            <br>
+            </div>
+
+
+            <input type="submit" class="btn btn-primary" value="submit">
+            </div>
+
+          </form>
+
+        </div>
+
+
+<div class="mt-5 pt-5 pb-5 footer">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-xs-12 about-company">
+      <h2>devDesigns</h2>
+      <p class="pr-5 text-white-50">Created and designed with passion and all love in the world </p>
+      <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+    </div>
+
+    <div class="col-lg-4 col-xs-12 location">
+      <h4 class="mt-lg-0 mt-sm-4">Contact</h4>
+      <p>Max Planck Straße 3A, 18059 Rostock</p>
+      <p class="mb-0"><i class="fa fa-phone mr-3"></i>+49 17645751476</p>
+      <p><i class="fa fa-envelope-o mr-3"></i>lakkakula.saidev@gmail.com</p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col copyright">
+      <p class=""><small class="text-white-50">© 2021. All Rights Reserved.</small></p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+  </body>
+</html>

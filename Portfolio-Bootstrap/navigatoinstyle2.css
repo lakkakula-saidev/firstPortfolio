@@ -1,0 +1,36 @@
+ul{
+
+background-color: #80A6A6;
+list-style-type: none;
+padding: 20px;
+border-radius: 15px;
+}
+
+
+li{
+float: left;
+
+}
+
+
+a{
+
+padding: 12px;
+font-size: 22px;
+border-radius: 15px;
+
+}
+
+a:link{
+
+text-decoration: none;
+
+}
+
+a:visited{
+color: black;
+}
+
+a:hover{
+  background-color: #43A3A3;
+}

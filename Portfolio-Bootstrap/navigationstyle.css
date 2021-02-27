@@ -1,0 +1,25 @@
+.menu{
+position: relative;
+top: 10px;
+padding: 20px;
+background-color: #80A6A6;
+border-radius: 8px;
+font-size: 25px;
+}
+
+a:visited{
+color: inherit;
+}
+
+a:link{
+padding: 10px;
+text-decoration: none;
+border-radius: 8px;
+
+}
+
+a:hover{
+border-radius: 8px;
+background-color:#43A3A3;
+
+}
