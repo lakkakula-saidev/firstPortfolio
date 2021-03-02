@@ -1,0 +1,353 @@
+.spacing{
+width: 100%;
+margin-left: 0px;
+margin-top: 10px;
+}
+
+.jumbotron h1{
+
+margin-left: 10px;
+
+}
+
+
+
+.Introduction p{
+width: 75%;
+padding: 0px 20px 10px;
+color: #FFFFFF;
+line-height: 35px;
+font-size: 16px;
+font-family: cursive;
+
+}
+
+.navbar{
+width: 100% !important;
+}
+
+.foto{
+border: 3px solid lightblue !important;
+width: 200px;
+height:200px;
+margin-left: 20px;
+margin-top: 80px;
+margin-bottom: 20px;
+border-radius: 10px;
+}
+
+#contactPage{
+  width: 100%;
+  background-color: #152F4F;
+  border: 3px solid #17A2B8;
+  border-radius: 8px;
+  border-top: 1px solid #17A2B8;
+  border-right: 10px solid #17A2B8;
+  border-top-right-radius: 20px;
+  border-bottom: 15px solid #17A2B8;
+  border-bottom-right-radius: 0px;
+background-image: url('newscene.jpg');
+color: #A3EAD8;
+
+}
+
+#submissionPage{
+  width: 100%;
+  background-color: #152F4F;
+  border: 3px solid #17A2B8;
+  border-radius: 8px;
+  border-top: 1px solid #17A2B8;
+  border-right: 10px solid #17A2B8;
+  border-top-right-radius: 20px;
+  border-bottom: 15px solid #17A2B8;
+  border-bottom-right-radius: 0px;
+background-image: url('newscene.jpg');
+color: #A3EAD8;
+
+}
+
+#homePage{
+
+  background-color: #152F4F;
+  border: 3px solid #17A2B8;
+  border-radius: 8px;
+  border-top: 1px solid #17A2B8;
+  border-right: 10px solid #17A2B8;
+  border-top-right-radius: 20px;
+  border-bottom: 15px solid #17A2B8;
+  border-bottom-right-radius: 0px;
+background-image: url('scene.jpg');
+
+color: #A3EAD8;
+}
+
+.container-fluid{
+background-color: #E3F2FD;
+}
+
+
+
+#welcome{
+  color: orange;
+  font-size: 30px;
+}
+
+
+#paraVisit{
+position: fixed;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 10px;
+bottom: 40px;
+right: 30px;
+font-size: 20px;
+border-radius: 15px;
+background-color: #80A6A6;
+color: black;
+text-decoration: none;
+font-family: sans-serif;
+}
+
+#paraVisit:hover{
+  background-color: #17A2B8;
+}
+
+#paraVisit:visited{
+color: black;
+
+}
+
+
+.navbarfont{
+font-weight: 500;
+color: black;
+}
+
+
+#query{
+  color: #E2DD3A;
+}
+
+
+
+#footerLast{
+  padding-bottom: 1px;
+  font-size: 16px;
+}
+
+.card{
+width:75%;
+margin-left: 20px;
+min-height: 120px;
+border-radius: 20px;
+}
+
+.contactform{
+padding-left: 10px;
+padding-right: 20px;
+border-radius: 20px;
+padding-top: 30px;
+padding-bottom: 30px;
+border-radius: 20px;
+background-color: #FFFFFF;
+}
+
+.formboxes input{
+width: 50%;
+border-radius: 20px;
+background-color: #E6E6E6;
+outline: none;
+padding-left: 15px;
+border: none;
+}
+
+.formboxes textarea{
+width: 75%;
+border-radius: 20px;
+background-color: #E6E6E6;
+outline: none;
+padding-left: 15px;
+border: none;
+}
+
+
+.submissionText{
+
+  margin-left: 20px;
+}
+
+.submissionText textarea{
+width: 80%;
+height:200px;
+background-color: #E6E6E6;
+padding-left: 5px;
+border: none;
+padding-right: 5px
+}
+
+.btn-outline-primary{
+  border-radius: 10px;
+}
+
+
+
+
+.footer{
+  background: #4A4B69;
+
+  color:white;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  }
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);}
+}
+
+.mt-5.footer{
+width: 100%;
+padding-top: 20px !important
+}
+
+.mt-5{
+margin-top: 0px !important;
+width: 100%;
+}
+
+.bodyText p{
+  width: 75%;
+  margin-left: 20px;
+  margin-right: 11px;
+}
+
+
+.pb-5 {
+    padding-bottom: 0px !important;
+}
+
+.footerMarginContact{
+margin-top: 50px;
+
+}
+
+.footerSubmissionPage{
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  .card{
+  width:55%;
+  margin-left: 20px;
+  min-height: 120px;
+  border-radius: 20px;
+  }
+
+  .bodyText p{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  .footerMarginContact{
+margin-top: 100px;
+
+    }
+
+    .footerHomepage{
+      margin-top: 100px;
+}
+
+.footerSubmissionPage{
+  margin-top: 90px;
+}
+
+
+.submissionText textarea{
+width: 50%;
+height: 200px;
+background-color: #E6E6E6;
+padding-left: 5px;
+padding-right: 5px
+}
+
+.footerSubmissionPage{
+  margin-top: 145px;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 1000px) {
+
+  .card{
+  width:55%;
+  margin-left: 20px;
+  min-height: 120px;
+  border-radius: 20px;
+  }
+
+  .bodyText p{
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+
+  .footerMarginContact{
+margin-top: 229px;
+    }
+
+  .footer{
+    background: #4A4B69;
+    color:white;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    min-height: ;
+}
+    .footerHomepage{
+      margin-top: 255px;
+
+}
+
+.footerSubmissionPage{
+  margin-top: 515px;
+}
+
+.submissionText textarea{
+width: 50%;
+height: 250px;
+background-color: #E6E6E6;
+padding-left: 5px;
+padding-right: 5px
+}
+
+
+}

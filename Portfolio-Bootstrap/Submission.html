@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     {%load static %}
-    <link rel="stylesheet" href="{% static 'portfoliostyling.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'portfoliostylingNew.css' %}">
     <title>Submission</title>
   </head>
-  <body>
+  <body id=submissionPage>
 
         <div class="spacing">
         <div class="jumbotron">
@@ -64,19 +65,22 @@
 
                   Please find your details and your message below: </span></p>
 
-                  <textarea rows="7" cols="50" style="font-size:120%;color:black; font-family: cursive;" readonly>
-First name: {{submission_name}}
+            </div>
+            </div>
+
+            <div class="submissionText">
+
+              <textarea  style="font-size:100%;color:black; font-family: cursive;" readonly>First name: {{submission_name}}
 Email: {{mail}}
 Subject of Contact: {{submission_subject}}
 
-Your message:
-{{submission_message}}.</textarea>
 
-             </div>
-            </div>
+Your message:{{submission_message}}.</textarea>
+         </div>
 
 
 
+            <div class="footerSubmissionPage">
             <div class="mt-5 pt-5 pb-5 footer">
             <div class="container">
               <div class="row">
@@ -98,6 +102,7 @@ Your message:
                   <p class=""><small class="text-white-50">©devDesigns 2021. All Rights Reserved.</small></p>
                 </div>
               </div>
+            </div>
             </div>
             </div>
 
